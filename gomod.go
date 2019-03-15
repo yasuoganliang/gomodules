@@ -5,6 +5,6 @@ import (
 )
 
 // MyGoMod 导出方法
-func MyGoMod() {
-	fmt.Println("this is a test")
+func MyGoMod(str string) {
+	fmt.Println("this is second version: ", str)
 }
