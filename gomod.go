@@ -5,6 +5,6 @@ import (
 )
 
 // MyGoMod 导出方法
-func MyGoMod(str string, version string) {
-	fmt.Printf("this is %s version: %s\n", str, version)
+func MyGoMod() {
+	fmt.Println("这是第三个版本啦！！！")
 }
